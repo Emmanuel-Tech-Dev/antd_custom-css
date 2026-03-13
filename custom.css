@@ -29,6 +29,7 @@
   --color-accent: #d4570a;
   --color-accent-hover: #b84a08;
   --color-accent-light: #fae8dc;
+  --color-acent-light-hover: #fae8dc10;
   --color-accent-muted: rgba(212, 87, 10, 0.12);
 
   --color-success: #2d7a4f;
@@ -811,7 +812,7 @@ a.ant-typography:hover {
   color: var(--color-text-primary) !important;
   font-size: 13.5px !important;
   font-family: var(--font-body) !important;
-  background-color: var(--color-bg-container) !important;
+  background-color: var(--color-bg-elevated) !important;
 }
 
 /* Sorted body column */
@@ -822,15 +823,15 @@ a.ant-typography:hover {
 /* Row hover */
 .ant-table-tbody > tr.ant-table-row:hover > td,
 .ant-table-tbody > tr > td.ant-table-cell-row-hover {
-  background-color: var(--color-accent-muted) !important;
+  background-color: var(--color-accent-light) !important;
 }
 
 /* Row selected */
 .ant-table-tbody > tr.ant-table-row-selected > td {
-  background-color: var(--color-accent-muted) !important;
+  background-color: var(--color-accent-light) !important;
 }
 .ant-table-tbody > tr.ant-table-row-selected:hover > td {
-  background-color: var(--color-accent-muted) !important;
+  background-color: var(--color-accent-light) !important;
 }
 
 /* Empty state — THIS was the dark empty table bug */
@@ -967,7 +968,7 @@ a.ant-typography:hover {
   border-color: var(--color-accent) !important;
 }
 .ant-pagination-item:hover a {
-  color: var(--color-accent) !important;
+  color: var(--color-accent-light) !important;
 }
 .ant-pagination-item-active {
   background-color: var(--color-accent) !important;
