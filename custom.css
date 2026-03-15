@@ -1006,7 +1006,7 @@ a.ant-typography:hover {
 .ant-select-item-option-content {
   color: var(--color-text-primary) !important;
 }
-.ant-table-pagination .ant-table-pagination-end{
+.ant-table-pagination-end{
    padding-right: "5px"
 }
 /* ───────────────────────────────────────────────
